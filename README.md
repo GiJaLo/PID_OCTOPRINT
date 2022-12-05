@@ -3,6 +3,19 @@
 ------
 PID Tuning
 ------
+
+Code: M503
+* M503 = the main command that triggers the PID Autotune calibration.
+
+Results:
+
+
+Code: M106 S255 
+
+* M106 = the command for Set Fan Speed
+* S255 = Speed, from 0 to 255. S255 provides 100% duty cycle; S128 produces 50%
+
+
 Code: M503
 * M503 is the main command that triggers the PID Autotune calibration.
 
