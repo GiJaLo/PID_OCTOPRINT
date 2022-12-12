@@ -10,7 +10,7 @@
 
 Check the settings before PID-tuning
 
-###Code: 
+##Code: 
 ```
 M503
 ```
@@ -30,12 +30,18 @@ function test() {
 
 ## Setup Hotend
 
-Code: M106 S255 
+Code: 
+```
+M106 S255 
+```
 
 * M106 = the command for Set Fan Speed
 * S255 = Speed, from 0 to 255. S255 provides 100% duty cycle; S128 produces 50%
 
-Code: M303 E-0 S220 C10 U1
+Code: 
+```
+M303 E-0 S220 C10 U1
+```
 
 * M303 is the main command that triggers the PID Autotune calibration.
 * E-0 is the hotend that will be calibrated.
