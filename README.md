@@ -10,7 +10,11 @@
 
 Check the settings before PID-tuning
 
-Code: M503
+###Code: 
+```
+M503
+```
+
 * M503 = the main command that triggers the PID Autotune calibration.
 
 Results example:
