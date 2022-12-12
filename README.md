@@ -8,10 +8,18 @@
 
 ## Setup
 
+Check the settings before PID-tuning
+
 Code: M503
 * M503 = the main command that triggers the PID Autotune calibration.
 
-Results:
+Results example:
+
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
 
 
 <hr style="border:8px solid gray"> </hr>
